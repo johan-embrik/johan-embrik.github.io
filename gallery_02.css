@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100vh;
+}
+
+body {
+    display: grid;
+    grid-template-rows: min-content auto min-content;
+}
+
+/* for beautification purpose */
+
+body {
+    text-align: center;
+}
+
+header, footer {
+    background-color: gray;
+    font-size: 3rem;
+    padding: 10px;
+}
+
+img {
+    /* height: 400px;
+    max-width: 400px; */
+    /* border: 10px; */
+    border-color: black;
+    padding: 20px;
+    /* margin: 10px; */
+    /* flex: 1 auto; */
+    /* flex-flow: row; */
+}
+
+.gallery {
+    background-color: darkgray;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 0 1em;
+}
+
+span {
+    display: inline-block;
+    line-height: 1.1;
+    text-align: center;
+}
+
+/* NAVBAR */
+nav > ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    padding: 10px 20px;
+}
+
+nav > ul > li > a:hover {
+    color: rgb(80, 0, 0);
+}
+
+a:link {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgb(28 5 46);
+    text-decoration: none;
+}
+
+a:active {
+    color: rgb(50, 0, 0);
+    text-decoration: underline;
+}
+
+/* a:hover {
+    color: brown;
+    text-decoration: none;
+} */
+/* .active {
+    text-decoration: underline;
+    text-decoration-style: solid;
+} */

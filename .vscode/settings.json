@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "Fira Code Light",
+    "editor.fontSize": 15,
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "SynthWave '84",
+    "workbench.preferredDarkColorTheme": "SynthWave '84",
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active"
+}
