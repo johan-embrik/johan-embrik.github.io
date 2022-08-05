@@ -1,6 +1,6 @@
 {
     "editor.fontFamily": "Fira Code Light",
-    "editor.fontSize": 15,
+    "editor.fontSize": 13,
     "editor.fontLigatures": true,
     "workbench.colorTheme": "SynthWave '84",
     "workbench.preferredDarkColorTheme": "SynthWave '84",
