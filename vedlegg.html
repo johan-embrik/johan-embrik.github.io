@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,14 +8,13 @@
     <title>johan-embrik - vedlegg</title>
     <style>
         * {
-            font-family: Fira Code Light;
+            font-family: Fira Code Light, monospace;
             margin: 0;
-            background-color: hsl(240, 5, 5);
-            color: aliceblue;
+            background-color: hsl(245, 40%, 8%);
             font-size: 2rem;
         }
 
-        body {
+        main {
             margin: auto;
             width: 50%;
             display: flex;
@@ -23,31 +22,29 @@
         }
 
         a {
-            padding: 1rem;
+            padding: 1.5rem;
             margin: 1rem;
-            border: 1rem;
-            border-color: aliceblue;
-            color: bisque;
+            border: 1px solid hsl(240, 30%, 70%);
+            color: hsl(240, 40%, 40%);
             text-align: center;
-            background: linear-gradient(45deg, rgba(89, 8, 92), rgb(20, 18, 100), rgb(88, 21, 44) 75% 100%);
+            background: linear-gradient(45deg, rgba(2,0,36,0.3) 0%, rgba(83,9,121,0.3) 20%, rgba(183,5,61,0.3) 40%, rgba(209,91,3,0.3) 60%, rgba(235,195,1,0.3) 80%, rgba(0,255,36,0.3) 100%);
             border-radius: 1rem;
+            overflow: hidden;
         }
 
         a:hover {
-            background-color: hsl(240, 15, 15);
-            text-decoration: none;
-            color: blueviolet;
-        }
-
-        button {
-            width: auto;
-            height: auto;
+            color: hsl(240, 80%, 80%);
+            text-shadow: 1px 1px 2px red, 0 0 1em blue, 0 0 0.2em;
+            background: linear-gradient(45deg, hsla(243, 100%, 7%, 0.6) 0%, hsla(280, 86%, 25%, 0.6) 20%, hsla(341, 95%, 37%, 0.6) 40%, hsla(26, 97%, 42%, 0.6) 60%, hsla(50, 99%, 46%, 0.6) 80%, hsla(128, 100%, 50%, 0.6) 100%);
+            box-shadow: 0 0 1em hsl(270, 50%, 40%), 0 0 0.5em;
         }
     </style>
 </head>
 <body>
-    <a href="portefølje/PORTEFØLJE KORT - JOHAN-EMBRIK DALSEG - REDUSERT.pdf">PORTEFØLJE</a>
-    <a href="portefølje/CURRICULUM VITAE - JOHAN-EMBRIK DALSEG.pdf">CURRICULUM VITAE</a>
-    <a href="portefølje/MASTERGRAD I ARKITEKTUR + BACHELORGRAD I INFORMATIKK - JOHAN-EMBRIK DALSEG.pdf">VITNEMÅL</a>
+    <main>
+        <a href="portefølje/PORTEFØLJE KORT - JOHAN-EMBRIK DALSEG - REDUSERT.pdf">PORTEFØLJE</a>
+        <a href="portefølje/CURRICULUM VITAE - JOHAN-EMBRIK DALSEG.pdf">CURRICULUM VITAE</a>
+        <a href="portefølje/MASTERGRAD I ARKITEKTUR + BACHELORGRAD I INFORMATIKK - JOHAN-EMBRIK DALSEG.pdf">VITNEMÅL</a>
+    </main>
 </body>
 </html>
